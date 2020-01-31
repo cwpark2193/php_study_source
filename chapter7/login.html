@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="./login.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="./login.css">
+  </head>
+  <body>
+    <div id="head">
+      <h3>로그인</h3>
+    </div>
+    <div id="main">
+      <form name="login_form" action="./php/login.php" method="post">
+        <fieldset>
+          <label for="">아이디</label>
+          <input type="text" name="login_id" id="login_id" value="" placeholder="최소 6자~최대 12자"><br>
+        </fieldset>
+        <fieldset>
+          <label for="">비밀번호</label>
+          <input type="password" name="login_password" id="login_password" value="" placeholder="영문, 특수문자, 숫자 혼합 8~12자">
+        </fieldset>
+        <!-- <input type="submit" id="login_btn" onclick="login_start();" value="로그인"></input><br> -->
+        <button type="button" name="button" id="login_btn" onclick="login_start();">로그인</button><br>
+        <fieldset class="fieldset_noboder">
+          <input type="checkbox" id="id_save_check" value=""><p id="id_save_p">아이디 저장</p>
+          <ul>
+            <li><a href="#">아이디 찾기</a> |</li>
+            <li><a href="#">비밀번호 찾기</a> | </li>
+            <li><a href="./signIn.html" ><strong> 회원가입</strong></a></li>
+          </ul>
+        </fieldset>
+      </form>
+    </div>
+
+  </body>
+</html>

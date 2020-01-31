@@ -1,0 +1,86 @@
+#head{
+  width: 600px;
+  margin: 0 auto;
+  margin-top: 150px;
+  border-bottom: 1px solid lightblue;
+}
+#main{
+  width: 600px;
+  margin: 0 auto;
+}
+h3{
+  margin: 0;
+  padding: 0;
+}
+form{
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+fieldset{
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  padding: 7px;
+  border: 1px solid lightgray;
+}
+input{
+  width: 250px;
+  height: 25px;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+input:focus{
+  /* border: 1px solid black; */
+}
+label{
+  margin-left: 10px;
+  display: inline-block;
+  width: 100px;
+  font-size: 14px;
+}
+#login_btn{
+  width: 415px;
+  height: 55px;
+  border: none;
+  margin-left: 43px;
+  border-radius: 5px;
+  background-color: #0288d1;
+  font-size: 20px;
+  color: white;
+}
+.fieldset_noboder{
+  width: 415px;
+  border: none;
+  padding: 0;
+  padding-top: 5px;
+}
+#id_save_check{
+  width: auto;
+  float: left;
+}
+#id_save_p{
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  display: inline-block;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  float: right;
+  display: inline-block;
+  list-style: none;
+}
+ul li{
+  display: inline-block;
+  font-size: 12px;
+  color: lightgray;
+}
+ul li a{
+  color: black;
+  font-size: 12px;
+  text-decoration: none;
+}
