@@ -1,9 +1,10 @@
-#head{
+#login_head{
   width: 600px;
   margin: 0 auto;
+  margin-top: 150px;
   border-bottom: 1px solid lightblue;
 }
-#main{
+#login_body{
   width: 600px;
   margin: 0 auto;
 }
@@ -30,9 +31,6 @@ input{
   margin: 0;
   padding: 0;
   font-size: 14px;
-}
-input:focus{
-  /* border: 1px solid black; */
 }
 label{
   margin-left: 10px;
@@ -66,19 +64,19 @@ label{
   font-size: 12px;
   display: inline-block;
 }
-ul{
+#find_id_pass{
   margin: 0;
   padding: 0;
   float: right;
   display: inline-block;
   list-style: none;
 }
-ul li{
+#find_id_pass li{
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   color: lightgray;
 }
-ul li a{
+#find_id_pass li a{
   color: black;
   font-size: 12px;
   text-decoration: none;

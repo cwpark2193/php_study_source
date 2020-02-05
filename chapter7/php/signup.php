@@ -18,6 +18,9 @@
     $call_number = $_POST["call_number"];
     $call_number_one = $_POST["call_number_one"];
     $call_number_two = $_POST["call_number_two"];
+    $phone_number = $_POST["phone_number"];
+    $phone_number_one = $_POST["phone_number_one"];
+    $phone_number_two = $_POST["phone_number_two"];
     $call_mms_check = $_POST["call_mms_check"];
     $home_number_one = $_POST["home_number_one"];
     $home_number_two = $_POST["home_number_two"];

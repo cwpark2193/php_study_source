@@ -1,0 +1,46 @@
+#sing_in_div{
+  width: 700px;
+  margin: 0 auto;
+}
+p{
+  margin: 0;
+  padding: 0;
+}
+form{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid black;
+}
+fieldset{
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-bottom: 1px dashed lightgray;
+}
+.verry_small{
+  width: 20px;
+}
+.small{
+  width: 40px;
+}
+.middle{
+  width: 100px;
+}
+.big{
+  width: 290px;
+}
+.verry_big{
+  width: 450px;
+}
+
+fieldset div{
+  display: inline-block;
+  float: left;
+}
+label{
+  margin: 0;
+  padding: 10px;
+  width: 100px;
+  display: inline-block;
+  background-color: #ffdead
+}
