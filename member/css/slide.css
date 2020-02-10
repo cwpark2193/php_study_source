@@ -1,8 +1,12 @@
 @charset "UTF-8";
-
+#login_title{
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+}
 .slideshow{
-  height: 230px;
-  background: #2092aa;
+  height: 350px;
+  background: #fff;
   min-width: 960px;
   overflow: hidden;
   position: relative;
@@ -33,11 +37,11 @@
 }
 .slideshow_nav a.previous{
   background: url(../img/sprites.png) no-repeat 0 -20px;
-  margin-left: -500px;
+  margin-left: -400px;
 }
 .slideshow_nav a.next{
   background: url(../img/sprites.png) no-repeat -81px -20px;
-  margin-left: 421px;
+  margin-left: 321px;
 }
 .slideshow_nav a.disabled{
   display: none;

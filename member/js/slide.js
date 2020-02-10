@@ -56,10 +56,8 @@ $(function () {
   });
   function autoDisplayStart(){
     timer = setInterval(function(){
-      if(currentIndex === 2){
-        incrementValue = -1;
-      }else if (currentIndex ===0) {
-        incrementValue=1;
+      if(currentIndex === 4){
+        incrementValue = 1;
       }
       var nextIndex = (currentIndex+incrementValue) % slidesCount;
       goToSlide(nextIndex);

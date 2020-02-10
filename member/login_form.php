@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>PHP 프로그래밍 입문</title>
+<title>JaeHoon's Bakery</title>
 <link rel="stylesheet" type="text/css" href="./css/common.css">
 <link rel="stylesheet" href="./css/login.css">
 <link rel="stylesheet" href="./css/slide.css">
@@ -21,9 +21,11 @@
 	<section>
 		<div class="slideshow">
 		<div class="slideshow_slides"> <!-- 슬라이드 안 사진 -->
-			<a href="#"><img src="./img/main_img.png" alt="slide-1"> </a>
+			<a href="#"><img src="./img/main_img.jpg" alt="slide-1"> </a>
 			<a href="#"><img src="./img/slide_first.jpg" alt="slide-2"> </a>
 			<a href="#"><img src="./img/slide_second.jpg" alt="slide-3"> </a>
+			<a href="#"><img src="./img/slide_third.jpg" alt="slide-4"> </a>
+			<a href="#"><img src="./img/slide_fourth.jpg" alt="slide-5"> </a>
 		</div>
 		<div class="slideshow_nav"> <!-- 사진 넘어가는 버튼 -->
 			<a href="#" class="previous">previous</a>
@@ -33,12 +35,14 @@
 			<a href="#" class="">&nbsp;</a>
 			<a href="#" class="">&nbsp;</a>
 			<a href="#" class="">&nbsp;</a>
+			<a href="#" class="">&nbsp;</a>
+			<a href="#" class="">&nbsp;</a>
 		</div>
 		</div>
     <div id="main_content">
   		<div id="login_box">
   		<div id="login_title">
-    		<span id="login_head">로그인</span>
+    		<h2>로그인</h3>
   		</div>
   		<div id="login_form">
 				<form name="login_form" action="./login.php" method="post">
@@ -57,7 +61,7 @@
 						<ul id="find_id_pass">
 							<li><a href="#">아이디 찾기</a> |</li>
 							<li><a href="#">비밀번호 찾기</a> | </li>
-							<li><a href="./signIn.html" ><strong> 회원가입</strong></a></li>
+							<li><a href="./member_form.php" ><strong> 회원가입</strong></a></li>
 						</ul>
 					</fieldset>
 				</form>
