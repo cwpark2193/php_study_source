@@ -84,6 +84,6 @@ $(document).ready(function() {
     }
   });
   $("#back_to_login").click(function(){
-    window.open("./login.html","_self",true);
+    window.location.href = './login_form.php';
   });
 });

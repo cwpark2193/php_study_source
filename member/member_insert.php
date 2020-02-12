@@ -39,12 +39,14 @@
   $call_number = $call_number."-".$call_number_one."-".$call_number_two;
   $phone_number = $phone_number."-".$phone_number_one."-".$phone_number_two;
   $address = $address."/".$address_detail;
+  $regist_day = date("Y-m-d (H:i)");
+
   $connect = mysqli_connect("localhost", "root", "123456", "myPage");
 
   $sql = "insert into members(sign_id,sign_password,name,birth_date,email,
-  call_number,phone_number,home_number,address,status,root,level,point)";
+  call_number,phone_number,home_number,address,status,root,regist_day,level,point)";
   $sql .= "values('$sign_id','$sign_password','$name','$birth_date','$email',
-  '$call_number','$phone_number','$home_number','$address','$status','$root',2,0)";
+  '$call_number','$phone_number','$home_number','$address','$status','$root','$regist_day',2,0)";
 
   mysqli_query($connect, $sql);
   mysqli_close($connect);

@@ -182,8 +182,8 @@
               <input type="text" name="etc_reason" id="etc_reason" value="" disabled="true" >
             </fieldset>
           </form>
-          <input type="button" name="button" id="modify_button" value="정보수정"></button>
-          <button type="button" name="button" id="back_to_login">취소-이전</button>
+          <input type="button" name="button" id="modify_button" value="정보수정" style="padding: 5px; margin: 5px; margin-bottom: 10px;"></button>
+          <button type="button" name="button" id="back_to_login" style="padding: 5px; margin: 5px; margin-bottom: 10px;">취소-이전</button>
         </div>
       </div><!--main content-->
     </section>

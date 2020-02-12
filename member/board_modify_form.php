@@ -55,7 +55,7 @@
   		</div>
   		</div>
       <div id="board_box">
-        <h3 id="board_title"> 게시판 > 글 쓰기</h3>
+        <h3 id="board_title"> 노트 내용 수정하기</h3>
         <?php
         $num = $_GET["num"];
         $page = $_GET["page"];
@@ -84,8 +84,12 @@
               <span class="col2"><textarea name="content"><?=$content?></textarea> </span>
             </li>
             <li>
+              <span class="col1"> 현재 파일 </span>
+              <span class="col2"><?=$file_name?></span>
+            </li>
+            <li>
               <span class="col1"> 첨부 파일 </span>
-              <span class="col2"><input type="file" name="upfile" ><?=$file_name?></span>
+              <span class="col2"><input type="file" name="upfile" ></span>
             </li>
           </ul>
           <ul class="buttons">

@@ -40,7 +40,7 @@
       </div>
     </div>
     <div id="board_box">
-      <h3 id="board_title"> 게시판 > 내용 보기</h3>
+      <h3 id="board_title"> 노트 내용 보기</h3>
       <?php
       $num = $_GET["num"];
       $page = $_GET["page"];

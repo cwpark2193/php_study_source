@@ -42,13 +42,21 @@
 <?php
     }
 ?>
+<?php
+    if($userlevel==1) {
+?>
+                <li> | </li>
+                <li><a href="admin_member.php">관리자 모드(15장)</a></li>
+<?php
+    }
+?>
             </ul>
         </div>
         <div id="menu_bar">
             <ul>
                 <li><a href="index.php">HOME</a></li>
-                <li><a href="message_form.php">쪽지 만들기</a></li>
-                <li><a href="board_form.php">게시판 만들기</a></li>
-                <li><a href="index.php">사이트 완성하기(준비중)</a></li>
+                <li><a href="message_form.php">MESSAGE</a></li>
+                <li><a href="board_form.php">FREE NOTE</a></li>
+                <li><a href="ask_list.php">ASK BOARD</a></li>
             </ul>
         </div>

@@ -6,6 +6,18 @@
   $subject = $_POST["subject"];
   $content = $_POST["content"];
 
+  $connect = mysqli_connect("localhost","root","123456","myPage");
+  $sql = "select * from board where num = $num";
+  $result = mysqli_query($connect,$sql);
+  $row = mysqli_fetch_array($result);
+  $file_name = $row["file_name"];
+  $file_type = $row["file_type"];
+  $file_copied = $row["file_copied"];
+  if ($file_copied) {
+    $file_path = "./data/".$file_copied;
+    unlink($file_path);
+  }
+
   $subject = htmlspecialchars($subject, ENT_QUOTES);
   $content = htmlspecialchars($content, ENT_QUOTES);
 
@@ -47,7 +59,6 @@
     $copied_file_name = "";
   }
 
-  $connect = mysqli_connect("localhost","root","123456","myPage");
   $sql = "update board set subject = '$subject', content = '$content'";
   $sql .= ", file_name='$upfile_name', file_type='$upfile_type',file_copied='$copied_file_name'";
   $sql .= "where num = $num";

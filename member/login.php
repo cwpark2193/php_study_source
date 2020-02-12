@@ -20,11 +20,11 @@
     else
     {
         $row = mysqli_fetch_array($result);
-        $db_pass = $row["login_password"];
+        $db_pass = $row["sign_password"];
 
         mysqli_close($connect);
 
-        if($pass != $db_pass)
+        if($login_password != $db_pass)
         {
 
            echo("

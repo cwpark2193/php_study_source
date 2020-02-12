@@ -6,7 +6,7 @@
   $connect = mysqli_connect("localhost","root","123456","myPage");
   function board_delete($connect,$num,$page)
   {
-    $sql = "select * from board where num  $num";
+    $sql = "select * from board where num = $num";
     $result = mysqli_query($connect,$sql);
     $row = mysqli_fetch_array($result);
     $copied_name = $row["file_copied"];
@@ -18,10 +18,6 @@
     $sql = "delete from board where num = $num";
     mysqli_query($connect,$sql);
     mysqli_close($connect);
-  }
-  function board_insert($connect,$num,$page)
-  {
-    // code...
   }
   switch ($mode) {
     case 'delete':

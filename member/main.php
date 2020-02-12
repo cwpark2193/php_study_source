@@ -67,7 +67,6 @@
             $rank = 1;
             $sql = "select * from members order by point desc limit 5";
             $result = mysqli_query($connect, $sql);
-            mysqli_error();
             if (!$result) {
                 echo "회원이 없습니다.";
             } else {
